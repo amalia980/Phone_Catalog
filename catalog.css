@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image:  url("bubble.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+
+}
+
+#tint-background {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+
+}
+
+nav {
+    position: fixed;
+}
+
+#wrapper {
+    padding: 3rem;
+    padding-bottom: 2rem;
+    border-style: hidden;
+    background-color: rgba(0, 0, 0, 0.6);  
+    overflow: hidden;
+
+}
+
+
+.table-title {
+    margin: 3rem 0 1rem 0;
+    text-align: center;
+}
+
+
+/*hover for form and table*/
+
+.form-input:hover {
+    background-color: #D898E0;
+    color: black;
+    transition: 0.7s;
+}
+
+.form-message {
+    width: 33rem;
+    height: 10rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+.my-button {
+    width: 33rem;
+    height: 3rem;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    
+}
+
+/*tabell*/
+table {
+    border-collapse: collapse;
+}
+
+.table-boxes {
+    width: 100%;
+    border-collapse: separate;
+    overflow: auto;
+}
+
+th {
+    border-left: none;
+    text-align: left;
+    padding-left: 1rem;
+    padding: 1rem;
+    background-color: black; 
+}
+
+td {
+    padding: 1rem;
+}
+
+.table-boxes:hover {
+    background-color: #D898E0;
+    color: black;
+    transition: 0.7s;
+    border-collapse: collapse;
+}
+ 
