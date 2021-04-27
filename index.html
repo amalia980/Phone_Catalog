@@ -47,7 +47,7 @@
     <h1 class="title">Welcome</h1>
     <div id="tint-background">
 
-        <p class="info-text">
+        <p class="info-text1">
             Hello! We are <b>Calls from mars </b>, this website-based service contains a collected register of phone numbers from a total of 164 countries. Here you can quickly see who called you in our Catalogue, we track phone numbers with each of their own id.
 
         <p class="info-text">
@@ -69,7 +69,9 @@
   
         <form>
           <h5 class="form-title">FIND CALLER</h5>
-        <input type="email" placeholder="E-mail..." class="email">
+
+        <label for="email" value="email"></label>
+        <input type="email" placeholder="Enter e-mail..." class="email" required>
 
             <select name="countryCode" id="country-code">
               <option data-countryCode="GB" value="44" Selected>UK (+44)</option>
@@ -292,9 +294,10 @@
               </optgroup>
             </select>
 
-            <input type="tel" class="number-input" placeholder="Telephone">
-
-        
+            <label for="phone number" value="phone number"></label>
+            <input type="tel" class="number-input" placeholder="Enter telephone..." required>
+  
+        <label for="submit" value="submit"></label>
         <input type="submit" value="Send" class="send-button">
       </form>
     </div>
