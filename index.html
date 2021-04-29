@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main_media.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Orbitron:wght@700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-
     <meta name="description" content="Contact page">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Calls from Mars</title>
 </head>
 <body>
@@ -21,7 +23,7 @@
 <!--navbar-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Calls from Mars</a>
+      <a class="navbar-brand">Calls from Mars</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -31,21 +33,18 @@
             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="catalog.html">Catalogue</a>
+            <a class="nav-link" href="catalog.html">Catalog</a>
           </li>
-          
         </ul>      
       </div>
     </div>
   </nav>
-
-
+  <script src="bootstrap.min.js"></script>
 
 <div class="wrapper">
-    <section id="container">
-    
+    <section class="container">
     <h1 class="title">Welcome</h1>
-    <div id="tint-background">
+    <div class="tint-background">
 
         <p class="info-text1">
             Hello! We are <b>Calls from mars </b>, this website-based service contains a collected register of phone numbers from a total of 164 countries. Here you can quickly see who called you in our Catalogue, we track phone numbers with each of their own id.
@@ -66,14 +65,12 @@
         </p>
 
 <div class="form-div">
-  
         <form>
           <h5 class="form-title">FIND CALLER</h5>
 
-        <label for="email" value="email"></label>
         <input type="email" placeholder="Enter e-mail..." class="email" required>
 
-            <select name="countryCode" id="country-code">
+            <select name="countryCode" class="country-code">
               <option data-countryCode="GB" value="44" Selected>UK (+44)</option>
               <option data-countryCode="US" value="1">USA (+1)</option>
               <optgroup label="Other countries">
@@ -294,16 +291,15 @@
               </optgroup>
             </select>
 
-            <label for="phone number" value="phone number"></label>
             <input type="tel" class="number-input" placeholder="Enter telephone..." required>
   
-        <label for="submit" value="submit"></label>
         <input type="submit" value="Send" class="send-button">
       </form>
     </div>
+    
+    </div>
     </section>
 
-</div>
 </div>
 </body>
 </html>

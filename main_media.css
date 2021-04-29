@@ -1,0 +1,85 @@
+/*laptop L*/
+@media all and (max-width: 1440px) {
+    
+    .wrapper {
+        margin-bottom: 3rem;
+    }
+
+    .container {
+        margin-bottom: 3rem;
+    }
+
+    .tint-background {
+        margin-bottom: 3rem;
+    }
+}
+
+/*tablet*/
+@media all and (max-width: 768px) {
+    .wrapper {
+        margin-bottom: 2rem;
+    }
+
+    .container {
+        margin-bottom: 2rem;
+    }
+
+    .tint-background {
+        margin-bottom: 2rem;
+    }
+}
+
+/*Mobile L*/
+@media all and (max-width: 425px) {
+
+    .title {
+        margin: 3rem 0 2rem 0;
+        font-size: 1.5rem;
+    }
+
+    .wrapper {
+        margin-bottom: 1rem;
+    }
+
+    .container {
+        margin-bottom: 1rem;
+    }
+
+    .tint-background {
+        margin-bottom: 1rem;
+    }
+
+    .form {
+        width: 10rem;
+        height: 10rem;
+        margin: 2rem 0 1rem 0;
+    }
+
+    .form-title {
+        margin: 3.5rem 0 1.5rem 0;
+        font-size: 1rem;
+    }
+
+    .email {
+        width: 13rem;
+        height: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .country-code {
+        width: 13rem;
+        height: 2rem;
+     }
+
+     .number-input {
+        width: 13rem;
+        height: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .send-button {
+        width: 13rem;
+        height: 2rem;
+        margin-bottom: 2rem;
+    }
+}

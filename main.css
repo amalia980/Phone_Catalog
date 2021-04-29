@@ -17,38 +17,44 @@ body {
     background-size: cover;
     background-attachment: fixed;
     color: white;
-    padding-bottom: 5rem;
 }
 
 /*navbar*/
-.nav-head {
-    cursor: text;
-    color: rgb(55, 66, 250);
-    font-size: 1.3rem;
-    margin-right: 2.5rem;
+
+.container-fluid:nth-child(1) > a {
+    font-size: 2rem;
+    background-color: #f3ec78;
+    background-image: linear-gradient(120deg, #ff4757 50%, #ff6348 50%);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
 }
 
-.nav-head,a {
-    text-decoration: none;
+li:nth-child(2) > a {
+    color: #a4b0be;
 }
+
 /*wrapper*/
 .wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
-    width: 100%;
-    
+    margin-bottom: 5rem;
 }
 
-#container {
+.container {
     border-style: hidden;
     width: 45rem;
-    height: 70vh;
+    height: 50rem;
+    margin-bottom: 5rem;
 }
 
-#tint-background {
-    background-color: rgba(0, 0, 0, 0.6);
+.tint-background {
+    background-color: rgba(0, 0, 0, 0.65);
+    margin-bottom: 5rem;
 }
 
 .title {
@@ -57,12 +63,12 @@ body {
 }
 
 .info-text1 {
-    padding: 3rem 3rem 0 3rem;
+    padding: 4rem 4rem 0 4rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 .info-text {
-    padding: 0.5rem 3rem 0 3rem;
+    padding: 1rem 4rem 0 4rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -83,7 +89,6 @@ input[type=email],input[type=tel] {
 
 form {
     border-style: hidden;
-    border-width: 7px;
     border-radius: 50%;
     width: 25rem;
     height: 25rem;
@@ -116,7 +121,7 @@ form {
     transition: 0.7s;
 }
 
-#country-code {
+.country-code {
    width: 17rem;
    height: 2rem;
    text-align: center;
