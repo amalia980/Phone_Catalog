@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="catalog.css">
+    <link rel="stylesheet" href="catalog_media.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -12,6 +13,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="bootstrap.min.js"></script>
     <title>Calls from Mars</title>
 </head>
 
@@ -38,21 +40,23 @@
     </div>
   </nav>
 
-<div class="wrapper">
-    <section id="container">
-
+<main class="wrapper">
+    <div class="container">
 
 <!--table-->
-<h2 class="table-title">Contacts</h2>
-<div id="tint-background">
-<table id="the-table">
+    <h2 class="table-title">Catalog</h2>
+<div class="tint-background">
+        <table>
+    <thead>
     <tr>
         <th>Id</th>
         <th>First Name</th>
         <th>Last Name</th>
         <th>Telephone</th>
     </tr>
+</thead>
 
+<tbody>
     <tr class="table-boxes">
         <td>1</td>
         <td>Adolph</td>
@@ -122,10 +126,11 @@
         <td>Studdeard</td>
         <td>763-151-1753</td>
     </tr>
-</table>
+</tbody>
+        </table>
+    </div>
 </div>
-</section>
 
-</div>
+</main>
 </body>
 </html>
