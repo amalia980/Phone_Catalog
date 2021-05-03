@@ -72,6 +72,10 @@
 
 /*mobile S*/
 @media all and (max-width: 320px) {
+    .container {
+        padding-bottom: 2.5rem;
+    }
+    
     footer {
         height: 2.5rem;
     }
