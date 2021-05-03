@@ -44,6 +44,7 @@ li:nth-child(2) > a {
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 100vh;
 }
 
 .container {
@@ -91,3 +92,25 @@ td {
     border-collapse: collapse;
 }
  
+footer {
+    width: 100%;
+    height: 3rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    color: #a4b0be;
+}
+
+.nav-link:hover {
+    color: #ff6b81;
+}
+
+.line {
+    width: 1px;
+    height: 2.5rem;
+    background-color: #a4b0be;
+}

@@ -69,3 +69,18 @@
         font-size: 0.9rem;
     }
 }
+
+/*mobile S*/
+@media all and (max-width: 320px) {
+    footer {
+        height: 2.5rem;
+    }
+
+    .nav-link {
+        font-size: 0.8rem;
+    }
+
+    .line {
+        height: 2rem;
+    }
+}
