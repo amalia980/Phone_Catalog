@@ -68,6 +68,7 @@ li:nth-child(2) > a {
 /*table*/
 table {
     border-collapse: collapse;
+    
 }
 
 .table-boxes {
@@ -79,7 +80,7 @@ table {
 th {
     border-left: none;
     text-align: left;
-    padding: 1rem;
+    padding: 0.99rem;
     background-color: black; 
 }
 
@@ -92,6 +93,7 @@ td {
     color: black;
     transition: 0.7s;
     border-collapse: collapse;
+
 }
  
 footer {
